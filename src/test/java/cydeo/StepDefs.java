@@ -44,6 +44,7 @@ public class StepDefs {
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains("search"));
     }
 
+
     @After
     public void tearDown(Scenario scenario) {
         if (scenario.isFailed()) {
